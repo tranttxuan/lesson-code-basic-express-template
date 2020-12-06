@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose
-  .connect('mongodb://localhost/change-database-name', {
+  .connect('mongodb://localhost/moviesDB', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true

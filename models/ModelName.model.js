@@ -3,7 +3,9 @@ const { Schema, model } = mongoose;
 
 const modelSchema = new Schema(
   {
-    // model properties
+    title: String,
+    description: String,
+    imageUrl: String
   },
   {
     timestamps: true
